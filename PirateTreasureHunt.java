@@ -4,7 +4,7 @@ public class MyProgram
 {
     public static void main(String[] args)
     {
-        System.out.println("Pirate Treasure Hunt");
+        System.out.println("Pirate Treasure Hunt"); //initial setup
         
         System.out.println("What is your name?");
         Scanner input = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class MyProgram
         
         System.out.println("You went sailing, your ship crashed, and now you find yourself at an unfamiliar island...");
         
-        int num = choice();
+        int num = choice(); //choice branches
         
         if (num == 1)
         {
@@ -39,7 +39,7 @@ public class MyProgram
                 }
                 else
                 {
-                    System.out.println("You somehow survived and became king of the island!");
+                    System.out.println("You somehow survived and became king of the island!"); //secret ending
                 }
             }
         }
@@ -61,7 +61,7 @@ public class MyProgram
         }
     }
     
-    private static int choice()
+    private static int choice() //method to get choices that are verified
     {
         System.out.println("Ahead of you are two paths:");
         System.out.println("1: Move right, 2: Move left");
