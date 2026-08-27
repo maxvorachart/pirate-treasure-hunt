@@ -31,6 +31,16 @@ public class MyProgram
             {
                 System.out.println("You fell into a volcanoe and died.");
                 System.out.println("You lose...");
+                
+                num = choice();
+                if (num == 1)
+                {
+                    System.out.println("You remain dead...");
+                }
+                else
+                {
+                    System.out.println("You somehow survived and became king of the island!");
+                }
             }
         }
         else
